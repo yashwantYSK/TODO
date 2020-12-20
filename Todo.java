@@ -207,7 +207,7 @@ public class Todo
 	private static void Usage() 
 	{
 		System.out.print("Usage :-\n");
-		System.out.print("$ ./todo add \"todo item\"  # Add a new todo\n$ ./todo ls               # Show remaining todos\n$ ./todo del NUMBER       # Delete a todo\n$ ./todo done NUMBER      # Complete a todo\n$ ./todo help             # Show usage\n$ ./todo report           # Statistics");
+		System.out.print("$ java Todo add \"todo item\"  # Add a new todo\n$ java Todo ls               # Show remaining todos\n$ java Todo del NUMBER       # Delete a todo\n$ java Todo done NUMBER      # Complete a todo\n$ java Todo help             # Show usage\n$ java Todo report           # Statistics");
 		
 		
 	}
